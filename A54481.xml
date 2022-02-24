@@ -1,0 +1,902 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An Advertisement concerning the province of East New-Jersey in America published for the information of such as are desirous to be concerned therein, or, to transport themselves thereto.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1685</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 56 KB of XML-encoded text transcribed from 13 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A54481</idno>
+            <idno type="STC">Wing P1672</idno>
+            <idno type="STC">ESTC R24153</idno>
+            <idno type="EEBO-CITATION">07972513</idno>
+            <idno type="OCLC">ocm 07972513</idno>
+            <idno type="VID">40731</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A54481)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 40731)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1211:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An Advertisement concerning the province of East New-Jersey in America published for the information of such as are desirous to be concerned therein, or, to transport themselves thereto.</title>
+                  <author>Perth, James Drummond, Earl of, 1648-1716.</author>
+               </titleStmt>
+               <extent>22 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by John Reid,</publisher>
+                  <pubPlace>Edinburgh :</pubPlace>
+                  <date>1685.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Attributed by Wing to J.D. Perth.</note>
+                  <note>Reproduction of original in the Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>New Jersey --  Colonization.</term>
+               <term>New Jersey --  History --  Colonial period, ca. 1600-1775.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-11</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-02</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2011-02</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:40731:1"/>
+            <pb facs="tcp:40731:1"/>
+            <p>AN ADVERTISEMENT Concerning the Province of EAST-NEW-JERSEY IN AMERICA. Publiſhed for the
+Information of ſuch as are deſirous to be con<g ref="char:EOLhyphen"/>cerned therein, or to tranſport themſelves
+thereto.</p>
+            <p>
+               <hi>EDINB<g ref="char:V">Ʋ</g>RGH,</hi> Printed by <hi>John Reid, Anno DOM.</hi> 1685.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:40731:2"/>
+            <pb facs="tcp:40731:2"/>
+            <head>AN ADVERTISEMENT Concerning the Province of EAST-NEW-JERSEY IN AMERICA.</head>
+            <p>
+               <hi>THE certain and undoubted account of the Province of</hi> Eaſt-New-Jerſey, <hi>hath been
+ſo authentically verified, now for two years paſt, by the teſtimony of perſons of
+un<g ref="char:EOLhyphen"/>queſtionable Credit, who have written from thence; As alſo by the Verbal account of
+ſeverals, who having been many Moneths upon the place, have ſince returned: that it ſeems
+ſtrange there ſhould be any further need, to inculcate the verity or certainty of it. And yet
+to this day, for all the clamors that have been raiſed, all unanimoſly agree, even thoſe
+Letters, where<g ref="char:EOLhyphen"/>upon the late noiſe hath been built, in aſſerting the healthfulneſs,
+pleaſantneſs, and fertilty of the Countrey; its advantagious Sci<g ref="char:EOLhyphen"/>tuation for Trade, and plenty
+and ſafety of excellent Herbors, and Inletts, ſo that no Ship was ever known, through the
+uneaſineſs or diſadvantage of the Coaſt, to be thrown away, nor yet the People to melt
+away, by deceaſe incident and cuſtomary in the Countrey: (which thoſe who Induſtriouſly
+ſeek to ſpread reports to the diſadvantage of this Province, dare not affirm, in favours of
+that intereſt, they ſeek to ſet up by decrying it without being convict of manifeſt
+falſhood,) alſo all the reports agrees in the plenty of Cattle and Corn, and Fruits of all
+kinds, already there, and of Fiſh and Fowl of all ſorts.</hi>
+            </p>
+            <pb n="2" facs="tcp:40731:3"/>
+            <p>
+               <hi>But the ground of all theſe clamors are founded upon ſome ex<g ref="char:EOLhyphen"/>preſſions of a letter
+written by</hi> John Campbel, <hi>to the Lord Secre<g ref="char:EOLhyphen"/>tary,</hi> Lundin, <hi>which becauſe they
+have been induſtriouſly repreſent<g ref="char:EOLhyphen"/>ed, many degrees worſe then really they are, are here
+verbatim inſert.</hi>
+            </p>
+            <floatingText type="letter" xml:lang="eng">
+               <body>
+                  <opener>
+                     <dateline>
+                        <hi>New-Perth,</hi>
+                        <date>
+                           <hi>9th.</hi> of October, <hi>1684.</hi>
+                        </date>
+                     </dateline> 
+                     <salute>My Lord,</salute>
+                  </opener>
+                  <p>WE came here on Friday the laſt of <hi>September</hi> and found but bad Quarters, there being
+but four Houſes built upon the Pro<g ref="char:EOLhyphen"/>prietors account (which are not worthie to be called houſes)
+they are but little, with one Chimney in every one of them, hav<g ref="char:EOLhyphen"/>ing but two low Rooms, and garrets
+above, and ſcarce will hold out Snow or Drift, and they are poſſeſſed by others that are
+here: There are four Houſes conſiderable, building upon particular mens accounts, that will be
+finiſhed this Winter, one of them is for the Governour, which <hi>Muni<g ref="char:EOLhyphen"/>varde</hi> poſſeſt
+as it was, and calls it the <hi>Earl of Perths-houſe:</hi> The preſent Governour-Depute lives
+at <hi>Elizabeth-town,</hi> he came here to us on Wedneſday laſt, and took very great pains to
+accommodate us all; and <hi>Lockharts</hi> Ship arrived the next day, which made us very throng;
+the Go<g ref="char:EOLhyphen"/>vernour-Depute after he had ſettled us, went alongs and ſhewed us the Town<g ref="char:EOLhyphen"/>bounds, that
+we might choiſe out our Town-intereſt, which falls to be very little, for the Town being
+alwayes computed to be <hi>1500. Acres,</hi> it proves to be after ſurvey, but a <hi>1000.</hi>
+of this; <hi>1000.</hi> there is laid out for high wayes, and publick uſes, <hi>200.</hi> Acres,
+ſo there remains to be divided for <hi>24. Proprie<g ref="char:EOLhyphen"/>ters,</hi> but <hi>800.</hi> Acres, of which
+<hi>800.</hi> there is for every Proprieter within the Town <hi>4.</hi> Acres for building on; ſo
+that I have taken up for your Lordſhip, having the half of a Proprietie in your own hand,
+including what your Lo: has diſponed to <hi>Gauin Drummond</hi> and me, <hi>2</hi> Acres, which
+your Lo: is oblidged by Act of Council here, to build upon within a twelve moneth, elſe the
+firſt that deſires to build after the year is run out (for the better ad<g ref="char:EOLhyphen"/>vancing
+<pb n="3" facs="tcp:40731:3"/>of the Town, the Governour gives them what is left unbuilt;) but I got him to
+delay giving of your Lo: to any bodie, till I have your Lo: return whither you reſolve to build
+in the Town on not? If your Lo: do build, <hi>300.</hi> lib. will be the leaſt that your Lo: can
+allow to build ſueh houſes as are here building; There is about <hi>33.</hi> Acres to fall to
+every <hi>Proprieter</hi> within the Town, of which <hi>John Reid</hi> poſſeſſes near the
+half of the <hi>Scots Proprieters</hi> ſhare, and has your Servants and Stock on it: When I begin
+to talk of cal<g ref="char:EOLhyphen"/>ling them to an account of the Stock ſent over, they ſay, <hi>It cannot be done
+till the 4. years is out. John Reid</hi> has a conſiderable dale of land under Corn, and a
+ſtock of Cowes and Horſe; <hi>John Hanton</hi> has the other ſhare in another place of the
+Countrie, whom I have not yet ſeen. I ſhew the Governour-depute here your Lo: Commiſſion to
+me, and Inſtructions, and de<g ref="char:EOLhyphen"/>ſired he would lay out a convenient place near a River, for a
+Houſe and Plan<g ref="char:EOLhyphen"/>tation for your Lo: But by all that I find, there is no ſuch thing to be had,
+for all ſucb places are already planted, and taken up; and by all appearance had not the
+Governour-depute purchaſed a tract of land a little before we came from the <hi>Natives,</hi>
+there had not been enough to ſettle thoſe who came in this two Ships. There is a place called
+<hi>Chinkaroray,</hi> which by the Governours letter is appointed to be preſerved for the
+<hi>Proprieters;</hi> and when the Depute Governour had ſurveyed it, and compted what was of it,
+there would not fall <hi>3.</hi> Acres to every Proprieters ſhare, there being ſo much of it
+laid out al<g ref="char:EOLhyphen"/>readie; So that as yet I can ſee no convenient place for your Lo. <hi>Munivarde</hi>
+and I with ſome others, are going towards the Hills on Monday, to ſee that land laſt
+purchaſed, which is computed to be about <hi>15000.</hi> Acres, which <hi>Munivarde</hi> ſayes
+he will have wholly to himſelf, and <hi>1000.</hi> more if it pleaſe him, if not, he will
+immediatly return home, or to <hi>Mariland,</hi> where be had very good offers of good Land. I do
+not find no place as I hear of, that is good untaken up within <hi>5.</hi> or <hi>6.</hi> miles of
+a portable River; I have not as yet the Governour Deputes final reſolution as to your Lo:
+Plantation; But I will get him to give your Lo: an account of things as they are himſelf, which
+he cannot do at the preſent, he being ſo taken up with the People that is here. My Lord, as to
+what I have ſeen of the product of this Countrie, there is very good Grain, ſuch as
+<hi>Indian-corn,</hi> to a great increaſe, <hi>Engliſh-wheat,</hi>
+                     <pb n="4" facs="tcp:40731:4"/>and <hi>Oats,</hi> and no queſtion <hi>Barley</hi> and <hi>Peaſe</hi> will
+grow, which they are now going to try; There is abundance of good <hi>Cattel, Horſe</hi> and
+<hi>Swine,</hi> and ſome <hi>Sheep;</hi> they will labour the ground twenty years without any
+dunging; there are many good Meadowes upon the Rivers; there is a<g ref="char:EOLhyphen"/>bundance of <hi>Deir,
+Turkiefowles, Quails,</hi> and <hi>Partridges;</hi> Some of our People has killed of them here very
+near the Town, and <hi>Water-fowles</hi> in all Creiks and Rivers. My Lord, this is all I have to
+trouble your Lo: with at preſent; But, if your Lo: pleaſe to build in your ſhare of the Town,
+you would ſend your Commands by the firſt occaſion, with Proviſion for that end. The
+Servants that are uſeful here, are Carpenters and Brick-layers and Makers, for they may make
+Brick where they found their houſes, this is all from</p>
+                  <closer>
+                     <salute>My Lord, </salute>
+                     <signed>Your Lordſhips moſt humble and oblidged
+Servant, <hi>John Campbel.</hi>
+                     </signed>
+                  </closer>
+               </body>
+            </floatingText>
+            <p>
+               <hi>Now to ſatisfie all</hi> reaſonable People, <hi>who does not uſe theſe
+ex<g ref="char:EOLhyphen"/>preſſions, upon a private deſign, to advance their own intereſt, and ſupport their
+deſperate adventures elſewhere, and to prejudge o<g ref="char:EOLhyphen"/>thers: Let it be conſidered, that
+firſt,</hi> Thoſe perſons had not been above eight dayes in the Countrey, when they wrote
+theſe Letters, wearied, toiled, and freated, with a tedious Journey about <hi>200.</hi> miles
+overland, from <hi>Mary land,</hi> where they had been put in by ſtreſs at Sea; that their
+information proceeded from the Old-Planters, who beſides their emnitie to our
+<hi>Countrey-men,</hi> and unwillingneſs they ſhould come in upon them; do all that they can to
+diſcourage thoſe at their firſt coming, and to undervalue the Intereſt of the Proprietors,
+becauſe they are behind in above <hi>1000. lib. Engliſh,</hi> of quitt-Rents, would willingly
+ſhun the punctuall payment in time coming, which they ſee they are not like to do; and are
+called in queſtion for ſeveral large Tracts of Land, they have had in poſſeſſion, (tho
+not improved by them, all agreeing they are a laſie People) and have no true tittle too. And we
+have
+<pb n="5" facs="tcp:40731:4"/>certain information from others, who were many Moneths upon the place, that they
+uſed the ſame Diſcouragements to them, upon their firſt arivale: But they in a ſhort time
+diſcovered their falſhood; and fraudulent deſign in it, as ap<g ref="char:EOLhyphen"/>pears in this very caſe, by
+Letters written a Moneth and more, after the date of theſe, to wit, the midle and end of
+<hi>December,</hi> whereas theſe are in the beginning of <hi>November,</hi> ſeveral abſtracts
+of which Letters when returned from the Countries where they were directed, to the Parties
+concerned, may be hereafter publiſhed. As to that which <hi>John Campbel</hi> ſayes, <hi>He
+hears that there is hardly any good Land untaken up, within 5. or 6. miles of a portable
+River;</hi> his Information has proved ſo for falſe, that <hi>David Mudie</hi> of
+<hi>Montroſe,</hi> in his letter to his Wife, of the <hi>12th</hi> of <hi>December,</hi> a moneth
+after, Declares, <hi>he had got 500 Acres, which was his full proportion of the firſt Diviſion,
+upon a Navigable part of the South River; where</hi> (he ſayes) David Violent <hi>hath got the
+like quantity, though each of them had but a 20th. part of a Propriety; and that to this place,
+they can in a Boat go from</hi> New-Perth <hi>in two houres and a half, and return in the like
+time.</hi> This ſufficiently proves that aſſertion not to be true; <hi>That there is no part
+untaken up within 5. or 6. miles of a Portable River;</hi> Beſides, that it is unqueſtionably
+known, that without <hi>Sandy-hook,</hi> by the Sea to the <hi>Southward</hi> of a place called
+<hi>Neverſniks,</hi> there is about <hi>30.</hi> miles where there is not yet one Family
+ſetled; And there is alſo a Navigable Bay, called, <hi>Barnagate,</hi> and the ſome of that
+Sea-ſide be Pin-tree-land, which is the worſt ſort; though good for the ranging of Cattel:
+Yet about <hi>Barnagate,</hi> where there is alſo a River, there is as good Land as in all
+thoſe parts of <hi>America,</hi> and already cleared of the <hi>Indian</hi> incumbrance, enough
+to aceommodate <hi>hundreds of Families;</hi> Beſides, that there are ſeveral. Tracts of Land,
+untaken up upon <hi>Hakinſake, Piſſaik,</hi> and <hi>Raritin Rivers;</hi> And there is a
+large Tract of excellent land upon <hi>Milſtoun-River,</hi> which runs into <hi>Raritin,</hi> and
+upon many other Re<g ref="char:EOLhyphen"/>vers and Crieks which were tedious here to mention, that is altogether un<g ref="char:EOLhyphen"/>taken
+up.</p>
+            <p>New though ſome have not ſpared, to call this <hi>Deſign a Cheat,</hi> upon this account,
+yet that Imputation is ſo manifaſtlie falſe, that the Mapp of
+<pb n="6" facs="tcp:40731:5"/>
+               <hi>Jerſey</hi> hath been patent above theſe two years, whereupon the obvious
+Navi<g ref="char:EOLhyphen"/>gable places within the Baye, the ſeven ſeveral Towns. ſtands, and who ever either did
+or had thought to engage in the Affair, not only might but were invited to obſerve it, ſo far
+were thoſe Concerned from ſeeking to con<g ref="char:EOLhyphen"/>ceal it, that they preſſed it as an encouragement,
+that people ſhould not land in a wilderneſs, or remot from Neighbour hood, but in a Countrey
+tollerablie well inhabited, where they could be accommodated with neceſſaries, till they could
+raiſe it out of their own Induſtry, which all, even theſe Letters yeelds may be done; and
+with farr eaſier labour, than here in a years time: Alſo, Theſe concerned recommended the
+Province upon that ac<g ref="char:EOLhyphen"/>count, becauſe, beſides the conveniencie abovementioned, for the land
+they want in theſe places, (as being taken up by the Old-Planters, before their Purchaſe) they
+have a valuable conſideration for it, there being a Liſt to be produced, ſent over from that
+Countrey in <hi>September</hi>-laſt, of the names of the Planters, the number of Acres they
+poſſeſs, and what they pay, which a<g ref="char:EOLhyphen"/>mounts to about <hi>300. lib. Sterling</hi> of yearly
+Rent; though at that time this Liſt was ſent, the Rental of all was not compleated; ſo that
+thoſe who found upon this as a Cheat, newly diſcovered by theſe Letters in the Affairs of
+<hi>Jer<g ref="char:EOLhyphen"/>ſey,</hi> manifeſt their malice, or at leaſt their ignorance.</p>
+            <p>But next, they groſly be-ſpeak their ignorance, that look they have no con<g ref="char:EOLhyphen"/>venient Land, if
+not upon a Navigable River. For what Countrey can be ſuppoſed to ly all thus? Muſt not the
+Riches and Export of the Countrie ariſe from the Improvement of Corn &amp; Cattel in an In-land
+Countrey? And as this is clearly proved, by the great In-land Countries of <hi>France,</hi> and
+<hi>England;</hi> to come nearer home, What Fool will ſay; <hi>That no part of</hi> Scotland
+<hi>is Valu<g ref="char:EOLhyphen"/>able, but what is within five or ſix miles of a Navigable River?</hi> What ſhould
+become then of the greateſt part of all the three <hi>Loutheans,</hi> of the Sheriffdom of
+<hi>Berwick,</hi> of all <hi>Clidſdale</hi> above <hi>Glaſgow,</hi> and the whole middle part
+of <hi>Fife,</hi> where yet the pleaſanteſt Seats in <hi>Scotland</hi> are. And its to be
+obſerved, that even where there is not Navigable Rivers in <hi>Eaſt-Jer<g ref="char:EOLhyphen"/>ſey,</hi> there are
+more Brooks and pleaſant running Streams, like thoſe here; then in any of the Neighbouring
+Collonies. And as it is not to be denyed, but the advantage of Navigation is great, to any
+Countrey, ſo it is moſt certain,
+<pb n="7" facs="tcp:40731:5"/>that there is no Province belonging to the <hi>Engliſh,</hi> upon all the
+continent of <hi>America,</hi> that is better furniſhed with good Harbors, and Navigable Ri<g ref="char:EOLhyphen"/>vers,
+and Creiks then <hi>Eaſt-Jerſey</hi> is, for its quantity; And however any have laboured to
+repreſent the pennary of Land, yet <hi>David Mudie</hi> in his Letter of the 12th of
+<hi>December,</hi> doth ſay, <hi>The Province is a third larger then ever it was repreſented
+in</hi> Scotland.</p>
+            <p>The next Objection is, <hi>As to the Indian purchaſe,</hi> it was a matter never concealed by
+the Proprietors, that an a knowledgement was to be given to the <hi>Indian Natives,</hi> upon the
+taking up of every Tract of Land, ſo that in the Inſtructions, that they have been patent
+theſe two years, among other Papers at <hi>Andrew Hamiltouns,</hi> it is poſitively inſert:
+As alſo, in the firſt of the Printed Papers; and whereas it was the defign of the Proprietors,
+as appears by the foreſaid Inſtructions given in to the Deputy Governour in <hi>Sep<g ref="char:EOLhyphen"/>tember,
+1683.</hi> to clear as much of the Countrey as he could from the <hi>In<g ref="char:EOLhyphen"/>dian incumbrance;</hi> He
+wrote hack, <hi>That was not a right meaſure, for the</hi> Indians <hi>were ſtill offering the
+lard, and it was better only to take it up as there came People; But that if the fourth part of the
+People of</hi> Scotland <hi>ſhould come, they ſhould not want Land upon that accompt, for he
+could ſtill procure it in time.</hi> And therefore, <hi>John Campbel</hi> ſaving, <hi>if 15000.
+Acres had not been lately purchaſed from the</hi> Indians, <hi>there had not been enough-to
+accommodate thoſe that came in the laſt two Ships;</hi> Which being write but five daves af<g ref="char:EOLhyphen"/>ter
+his Arrival there, ſhews he was not yet acquainted with the Method of that Countrey.</p>
+            <p>And yet by <hi>Munivards</hi> Letter it is obvious, how eaſte that <hi>Indi<g ref="char:EOLhyphen"/>dian
+Incumbrance</hi> is, ſince he write, <hi>He was to have 20. miles ſquar, for leſs than
+250.</hi> lib ſterling, <hi>which yet is above three hundred thou<g ref="char:EOLhyphen"/>ſand Acres, ſo that the
+conſequence of that purchaſe, need not frigh<g ref="char:EOLhyphen"/>ten any; Yet</hi> Munitard <hi>hath been ignorant
+in that fancy,</hi> ſince no <hi>Sub<g ref="char:EOLhyphen"/>ject</hi> of the King of <hi>England,</hi> dare purchaſe
+any within the bounds of any Patent granted by him, but by allowance of the Government derived from
+him: <hi>And as to</hi> Munivards <hi>Complants, of his Bargain, and that he was told by the Deputy
+Governour, he knew not yet
+<pb n="8" facs="tcp:40731:6"/>where his Land lay, (which yet might be truely ſaid, in an in<g ref="char:EOLhyphen"/>tereſt
+undivided, as all the Land is, till it be diſtinctly taken up) the true miſtery of that is
+known, by Letters of a moneth latter date, from Credible Perſons, that he refuſed to take up
+land, for Rea<g ref="char:EOLhyphen"/>ſons not proper here to inſert.</hi>
+            </p>
+            <p>This with the Letters and Teſtimonies before mentioned, do ſufficiently evidence how little
+ground there is for thoſe reports that have been ſpread abroad, and tho in particular many
+ſcurulous reports, have paſt upon <hi>Robert Barclay</hi> upon this occaſion, yet none
+durſt ever challange him to his face, as having done injuſtice in this matter, and to ſhew
+how falſe they are, let it be conſidered, that tho he might have put a conſiderable ſum of
+money in his pocket by ſelling of part of his own Propreity, yet he never did it, but only
+procured from others in <hi>England,</hi> Sharers to ſuch as deſired, out of Zeal to advance
+the Intereſt of his Countrey men, that though there hath been half a Propriety bought ſince
+this clamour was raiſed, and that he might have ſo diſpoſed of the half of his own, and yet
+have reſerved as great an Intereſt as any <hi>Scots-Man</hi> hath; he choiſed rather to
+procure it from <hi>England,</hi> which ſhews, he neither ſought his own advantadge, nor yet
+hath no Diffidence of the value of the Province, notwithſtanding of thoſe clamours; And for the
+other wild reports, that have been induſtriouſly ſpread upon him as to that matter, they
+being but a Maſs of envy and malice, which of themſelves evaniſh, as ſuch which every Body
+is aſhamed to own, they are not worth the taking notice unto.</p>
+            <div type="part">
+               <head>Here Followeth the Teſtimony of ſome Perſons that were many Moneths in the Province,
+with an abſtract of ſome Letters write by Perſons that are lately gone Over.</head>
+               <p>WHereas we underſtand, that there are ſome Letters come from <hi>Eaſt-Jerſey</hi> of
+late, from ſome Perſons that are lately gone over there;
+<pb n="9" facs="tcp:40731:6"/>wherein they give an ill Character of the Countrey, as if there were not in it
+land to accommodate thoſe, who have purchaſed Intereſts there, although this without doubt
+may ſtartle thoſe that have not been in the Countrey, and do not know the preſent ſtate of
+it; yet to us it ſeemeth not ſtrange, for had we given ear to the Reports of many perſons,
+who have been long Inhabitants there, we ſhould have write no leſs our ſelves: but we ſoon
+perceived their deſign in it, who being unwilling that others ſhould come in among them, and
+ſhare of their Advantages, and eſpecially our Countrey People, of whom they were moſt
+jealous, becauſe they ſaw that they took a right way to improve their In<g ref="char:EOLhyphen"/>tereſts there, did
+what they could to diſcourage us, telling us, <hi>that all the beſt land was taken up,</hi> and
+many other ſtories to diſſwade us from ſetling our ſelves, or adviſing any of our
+Friends and Countrey People to come and ſettle there; But after we had been a while in the
+Countrey, and had occa<g ref="char:EOLhyphen"/>ſion to ſee the Land, and other Conveniencies of it, we found there was
+no regard to be had to theſe reports, and ſaw it was out of meer prejudice they endeavored to
+diſcourage us, becauſe they perceived that the <hi>Scots</hi> Proprietors of the Coun<g ref="char:EOLhyphen"/>trey were
+in good earneſt; and as they had begun to ſend over People, and make ſetlements upon their
+Lands, ſo they would proceed, and examine all o<g ref="char:EOLhyphen"/>ther affairs in the Countrey, which was very
+unwelcome to thoſe Planters; not only by reaſon of the invalidity, and unjuſtneſs of the
+Titles, whereby many of them claimed ſo great tracts of Land, as they pretended was already taken
+up, but becauſe ſuch of them as had good and ſufficient Rights, to ſome parcells of land,
+were run ſo far in the arrears of their Quit-rents, that it would pinch them to pay all they were
+owing to the Proprietors, and they ſaw if the Proprietors proceeded in ſending over People, and
+otherwayes improving their Intereſts, they muſt either pay or part with ſome of their lands,
+which they were loath to do to any, and eſpecially to <hi>Scots</hi> People, and ſo they
+thought that if they could but diſcourage thoſe that came firſt over, it would hinder others
+from coming, and make the Proprietors careleſs of their Intereſts.</p>
+               <p>We doubt not but theſe perſons who have been allarumed with theſe reports at their firſt
+arrival, will (if they be not altogether careleſs of their own, or the Intereſts of their
+Friends there, and take for granted every thing that the Old-Planters ſay, without further
+inſpection into the Countrie) write in an<g ref="char:EOLhyphen"/>other
+<pb n="10" facs="tcp:40731:7"/>ſtrain, for we know there is yet abundance of good land to be taken up; the
+Countrie being large, and but a skirt of it as yet inhabited. It is from the place called
+<hi>Little-Egg-Harbour,</hi> to the extent of the bounds of it upon <hi>Hudſons River,</hi>
+reckoned <hi>120.</hi> miles at leaſt, and from thence over to <hi>Delavare Ri<g ref="char:EOLhyphen"/>ver,</hi> it is
+affirmed by them that have travelled it, to be above <hi>100.</hi> miles, and beſides
+<hi>Hudſons River,</hi> there are ſeveral other brave Rivers, upon which there is land yet to
+take up, as the <hi>Rariton, Piſſaick,</hi> and <hi>Hac<g ref="char:EOLhyphen"/>kinſack Rivers;</hi> And alſo the
+<hi>South-River,</hi> and <hi>Milſton River,</hi> and many other Creiks and Rivers, upon all
+which there is good land to be taken up, and aboundance of Meadow, and although ſome of the land,
+upon the mouth and a little upwards, upon ſome of theſe Rivers be taken up, yet we know that
+the land above, which is yet untaken up, though it be not altogether ſo convenient for Trading,
+ſo as to have Ships come to it; it hath other con<g ref="char:EOLhyphen"/>veniencies exceeding that below: For the land
+is better, and it is generally obſerved in theſe Countries, that the farther up the better the
+land is; and as the Soil is better, ſo alſo the Air is wholeſomer, and the Countrey far more
+plea<g ref="char:EOLhyphen"/>ſant, and not troubled with Musketaes, which breeds in the ſalt Meadows, upon the mouths
+of the Rivers, where the Salt-water Ebbs and Flows. And for theſe Reaſons we would as ſoon
+choiſe to ſettle above upon the Rivers as below; For though ſhips of burden cannot come up
+very farr in the Rivers, yet Boats and Cannoes may, which are ſufficient to carry too and fro,
+ſuch things as are needfull, for thoſe that deſire to live a Countrey life, and do not follow
+Trading or Merchandizing, (Towns and Cities being only fit for ſuch.) And indeed the Countrey
+People themſelves begin to be deſirous to go backwards into the Countrie and ſettle; And we
+believe, that if they had not ſetled ſud<g ref="char:EOLhyphen"/>denly at their firſt coming, before they were well
+acquainted with, and had viewed all the Countrie, they had moſt of them gone further up; for we
+know ſome of them that have ſold their Plantations below, and gone backwards and ſetled new
+ones; and ſuch as have lived any while in the Countrey, upon Trades or Merchandizing, before they
+ſetled Plantations, have gone and ſetled backwards; as particularlie, the Merchants of <hi>New
+York,</hi> who have many of them ſetled Plantations on the <hi>Rariton River,</hi> and choiſed
+to go far above
+<pb n="11" facs="tcp:40731:7"/>thoſe that firſt ſetled; and their Plantations though they be far later,
+yet are of much more value than thoſe that are below. There is a tract of Land upon <hi>Milſton
+River,</hi> which lyes far above any that is as yet taken up, that was pitched upon by a perſon
+well known and experienced in theſe Countries, upon which he intended to ſetle a conſiderable
+Town, and ingadged many Families in <hi>New-England</hi> to come and ſettle there, and had ſold
+them land, who being better dequainted with the ſtate of things in <hi>America,</hi> then any
+here in <hi>Scot<g ref="char:EOLhyphen"/>land</hi> can be, would not left their own Coaſts in <hi>New-England,</hi> and
+gone there and planted backwards, if it had been inconvenient or diſadvanta<g ref="char:EOLhyphen"/>gious: But this
+perſon they engaged with not taking the right way to effectuate his deſigne, was forced much
+againſt his will to deſiſt; The Governour of the Province refuſing him the land upon any
+terms, which ſo vexed the People in <hi>New-England,</hi> that he had treated with, and ſold a
+part of the land to, that he durſt not be ſeen in their Countrey for a conſiderable time
+afterwards.</p>
+               <p>And beſides theſe Rivers, there are many pleaſant Brooks and Rivolets, all over the
+Countrey, that run into the greater Rivers, upon which many curious Plantations may be ſetled; So
+that although many thouſands were going over, we know there is Land enough to accommodate them,
+there being Countries as yet in a manner untaken up; and particularlie, from <hi>Shrewsberry</hi>
+to <hi>Little-Egg-Harbor,</hi> which is a large Countrey, altogether as yet untaken up; and towards
+the <hi>South-weſt-part</hi> of it, an excellent Bay or Inlet of the Sea, called
+<hi>Barnagate,</hi> wherein runs a River; This place we have heard commend<g ref="char:EOLhyphen"/>ed by many to be the
+beſt place for Fiſherie upon that Coaſt, and that the Land about it is good and convenient,
+appears by the deſire of ſeveral of the Countrie People, who to our knowledge, offered to make
+purchaſe of land there. It was envyed by the Governour of a Neighbouring Province, who could he
+obtained libertie, would have planted it with People from his own Countrie; So this place being
+altogether untaken up, may well accommodate many People, eſpe<g ref="char:EOLhyphen"/>ciallie thoſe that deſire to be
+upon a Navigable River, or Bay, it being a place where Veſſels may come in.</p>
+               <p>It ſeems among other things, theſe Perſons writes, <hi>That there is not Land purchaſed
+of the Indians,</hi> Its true the whole Countrie is not purcha<g ref="char:EOLhyphen"/>ſed from them, but there is as
+much purchaſed as is needful at preſent, and
+<pb n="21" facs="tcp:40731:8"/>more then will be ſetled in haſte. For when we came away, the Deputy
+Go<g ref="char:EOLhyphen"/>vernour was treating for above <hi>ſixty thouſand Acres,</hi> the greateſt part of which
+was finallie agreed for, and the reſt very near agreed upon; <hi>Seven<g ref="char:EOLhyphen"/>teen thouſand Acres</hi>
+of it lyeth betwixt <hi>Rava River,</hi> and the <hi>Rariton River, five thouſand Acres</hi>
+lying betwixt two Creiks, the one called <hi>Chceſquaks,</hi> and the other <hi>Chingaroras,</hi>
+which are the <hi>Indian</hi> names, and <hi>thirty two thouſand Acres</hi> lying betwixt that
+<hi>Chingaroras</hi> up<g ref="char:EOLhyphen"/>wards in the Countrey, and the lands of <hi>Midleton</hi> and
+<hi>Shrewsberry,</hi> and <hi>eight thouſand Acres</hi> lying upon the <hi>Rariton River,</hi>
+and ſeveral other Parcels in other places, in all which places there is aboundance of good land,
+which is altogether untaken up, unleſs what may be taken up of it by theſe Per<g ref="char:EOLhyphen"/>ſous that are
+lately gone over, and are arrived ſince our coming away, ſo that certainly very many people
+muſt go over, before this can be all ſetled, and to Purchaſe more of the <hi>Indians,</hi>
+untill this or the greateſt part of it, be ſetled, were not prudence, for whereas now the
+<hi>Indians,</hi> part with their land, for a ſmall matter, they would if People ſeemed too
+earneſt to pur<g ref="char:EOLhyphen"/>chaſe all in a ſudden, augment their price.</p>
+               <p>Theſe things being conſidered, we know not what reaſon of diſcouradgement there is, to
+binder any from engadging in that Countrey; And indeed we are ſory, that any thing ſhauld
+appear, to ſtop our Countrey People, that are in<g ref="char:EOLhyphen"/>clinable to go and ſettle there, for we are
+ſure, that if they knew, and un<g ref="char:EOLhyphen"/>derſtood the nature of the Country, and how eaſily a man may
+procure a plen<g ref="char:EOLhyphen"/>tifull Livelyhood, for his family in thoſe parts, they would not account thoſe
+that have raſhly written theſe diſcouradging Letters their Friends.</p>
+               <p>And becauſe we are informed, that it is reported in ſome places, that we have given an ill.
+report of the Countrey: We do hereby, Declare it to be falſe, for as it truely deſerves, we
+have alwayes commended it, and encou<g ref="char:EOLhyphen"/>radged ſuch, as we have have found inclinable to go thither,
+as is well known to thoſe among whom we have converſed ſince our return from thence, and as
+may appear, be ſeveral Letters we write to our Friends while we were in that Countrey; wherein we
+alwayes acknowledged that the Countrer did deſerve, that good Commendation which it generally
+got, and this hath been confirmed by many Letters from ſeveral Perſons, that are arrived there,
+ſince our coming
+<pb n="13" facs="tcp:40731:8"/>away, who have not been ſor aſh, and unadviſed in their Cenſures, as
+theſe others have been.</p>
+               <p>This we thought fit to give forth, for the ſatisfaction of ſuch, as are de<g ref="char:EOLhyphen"/>ſirous to be
+informed of the Countrcy, from thoſe who have been Inbabitants for a time therein, and have been
+Eye and Ear Witneſſes, to the State and Affairs thereof, teſtifying under our hands, what we
+have here written to be true, we remain well-wiſhers to all our Countrey People.</p>
+               <closer>
+                  <signed>
+                     <list>
+                        <item>
+                           <hi>David Barclay. </hi>
+                        </item>
+                        <item>
+                           <hi>Althur Forbes.</hi>
+                        </item>
+                     </list>
+                  </signed>
+                  <dateline>At <hi>Aberdeen</hi> the
+<date>
+                        <hi>5th day</hi> of <hi>March, 1685.</hi>
+                     </date>
+                  </dateline>
+               </closer>
+            </div>
+            <div type="part">
+               <head>
+                  <hi>David Mudies</hi> Letter to his Wife.</head>
+               <opener>
+                  <dateline>New-Perth <date> the 12. <hi>December,</hi> 1684.</date>
+                  </dateline> 
+                  <salute>My
+heart,</salute>
+               </opener>
+               <p>
+                  <hi>I</hi> Hope this ſhall find you and your Children in Good bealth, and I wiſh in as much
+ſatisfaction as I and our Children are here, far beyond my expectation, and others my
+well-wiſhers, who are with you, my laſt to you was upon my arrival here, dated the Eth of
+<hi>November,</hi> and at that time I could give you but a ſmall account of my judgment anent it,
+it would take a great deale of time to inform you of every thing, as it truclie is; But to be
+ſhort, I have travelled through a part of it, and it is far larger than ever I heard it reported
+in <hi>Scotland:</hi> I dare ſay, above a third more ground, and there is abundance of brave
+Rivers through it all, better then ever I did ſee in any place, brave Meadows alongſt all the
+River ſides, good lands a<g ref="char:EOLhyphen"/>bove the Meadow ground, ahoundance of Freſh water Brooks, and
+Springs, plenty of Fiſhes in all the Rivers, in the Summer time, and that very good Fiſhes
+ſuch as they preſerve for Victual in the Winter, &amp; in very few days they uſe to take more
+then they make uſe of in Winter; as for wild Meat there is
+<pb n="14" facs="tcp:40731:9"/>of all ſorts, <hi>Cows, Sheep</hi> and <hi>Oxen</hi> as large as in
+<hi>England,</hi> and aboun<g ref="char:EOLhyphen"/>dantly cheap, conſidering there goodneſs; Corns and all Sorts of
+Fruit in great aboundance, and no liſs then they are called in <hi>Scotland.</hi> Money with<g ref="char:EOLhyphen"/>in
+this three years is become pretty plentiful, Servants dear and ſearce: I have taken up ſex
+Acres of Land in <hi>Newperth,</hi> which pleaſes me exceeding well, in regard it is good Land,
+and fit for building of a City, and Perſons of Good Fortune are come from <hi>New-York,</hi> and
+other places in the Coun<g ref="char:EOLhyphen"/>trey, and are very buſy building, and I am begun to build a houſe, and
+have near digged the ground, which is very hard, it being under a great part of it <hi>Oker,</hi>
+which is hard to digg, and the leaſt deepneſs is eight foot, I have my two Wrights Squaring of
+Timber for it, and I reſolve to have it a good handſome Horſe, ſix Rooms off a floor, with
+a Study, two ſtories high above the Sellers, and the Garret above; And I doubt not if the Froſt
+bid away, but I ſhall have the Sellers finiſhed, and the geſts laia above it, againſt the
+latter end of this Moneth; for the land that lyes to the houſe, I reſolve to fence in two
+Acres-of it for an Orchard, and an Yeard, and to have that done before the middle of
+<hi>February,</hi> and to have it planted with fruit trees; for I find a man in three years will
+have more Fruit in ſuch an Orchard then he knows how to make uſe of.</p>
+               <p>And about the middle of <hi>February,</hi> according as the Weather is, I reſolve to go out
+where I have taken up my Land, which is upon a River, called the <hi>South River,</hi> which is an
+exceeding pleaſant River, and place, there goes onely with me there <hi>Mr. David Violent.</hi> I
+can go from <hi>New-Perth</hi> to it in a Boat, in two houres and a half, let the wind blow as it
+will, and come back again in as much time; I wiſh I had as many Servants here as I could make
+uſe of. Any man that is frugal, and hath <hi>300. lib. Sterling</hi> in Stock, to come over here,
+and bring over <hi>7.</hi> or <hi>8.</hi> good Servants with him, I could aſſure him in
+<hi>3.</hi> years time be ſhould make a ſtock better then <hi>1000.</hi> if not <hi>1500.
+lib.</hi> if he beſtow his money right in <hi>Scotland,</hi> and take advice to bring all things
+here which is neceſſary for him to have in this Coun<g ref="char:EOLhyphen"/>trey. I am uncertain of the time
+<hi>I</hi> will be at Home, but I reſolve you ſhal come over with me again, and ye will both
+think and ſay, when ye ſee the Countrey, that ye wiſh it had been done twenty years agoe. I
+thought it
+<pb n="15" facs="tcp:40731:9"/>not fit to trouble my friends and relations, ſince I could not write ſhort
+Let<g ref="char:EOLhyphen"/>ters to them, but any of them that defires to know the condition of this Coun<g ref="char:EOLhyphen"/>trey, ye may
+ſhew them this Letter, ſince there is no ſecreet in it, you will find by <hi>William
+Burnets</hi> Letter, that he deſires ſome of his Sons to come over, and <hi>John Geddis</hi>
+writs for ſome of his Brethren; the which Letters cauſe deliver them carefully, and get an
+anſwer that if they be to come over, ye may ſpeak for their paſſage timely; he tells ſome
+of them are good Wrights; which is all at preſent, but keep a good heart to your ſelf, and take
+care of your Children, and <hi>I</hi> hope to ſee you with more Comfort then we parted, and I am
+your ever loving Husband while I breath,</p>
+               <closer>
+                  <signed>David Mudie.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>James Johnſtons Letter to his Brother John Johnſton Drougeſt in
+<hi>Edinburgh.</hi>
+               </head>
+               <opener>
+                  <dateline>
+                     <hi>Eaſt-Jerſey the</hi>
+                     <date>12th. <hi>of December,</hi> 1684.</date>
+                  </dateline> 
+                  <salute>
+                     <hi>Loving
+Brother,</hi>
+                  </salute>
+               </opener>
+               <p>I Have taken up a part of my Land, 9. miles from <hi>Amboy,</hi> and 4. miles from
+<hi>Piſcatway,</hi> and as far from the neareſt part of <hi>Rariton,</hi> on a Brook-ſide,
+where there are exceeding great plains without any. Timber, there is excellent Gunning for Dear and
+Turkies, of which there is great plenty, and eaſily ſhot. But I reſolve to ſee a place
+called <hi>Bernagate,</hi> which is 60. or 70. miles from this, on the Souther moſt place of the
+Province, where there is a good River and Harbour, the beſt Fiſhing and Gunning in any place in
+<hi>America</hi> 30. or 40. miles from any Plantation. The <hi>In<g ref="char:EOLhyphen"/>dians</hi> here are nothing to be
+feared, the Place being as peaceable as any where elſe; I had occaſion to travel through
+<hi>Long-Iſland,</hi> and <hi>Stalen Iſland,</hi> and for many miles found as many towns and
+plan<g ref="char:EOLhyphen"/>tations in the way, as in any ſo much Land in <hi>Louthean;</hi> there are no Bears nor
+Ravinous Beaſts but Wolves, which are nothing to be feared, neither are the Countrey People
+afraid to be among them all night, in ſo much as I oft times going wrong, and lying
+<pb n="16" facs="tcp:40731:10"/>out all night and hearing there yells about me, and telling that I was afraid
+of them, the Countrey People laught at it; neither are the Snakes any thing to be noticed, for
+nothing can come near them, but they give warning with the ratling of their tail, ſo that People
+may either kill them, or go by them as they pleaſe. Oxen are ſo well taught that they go
+ſometimes in a Plough, or Cart, without Horſe, or without a Gade-man; Horſes and Cattel are
+as cheap as in <hi>Scotland,</hi> conſidering their goodneſs and the difference of the Money;
+All ſorts of <hi>Scots</hi> goods ſells well here, ye will be ad<g ref="char:EOLhyphen"/>viſed with the next
+Occaſion, what goods ſells beſt in this place. I have great reaſon to thank GOD, that I am
+in a place which a<g ref="char:EOLhyphen"/>bundantly anſwers any thing I expected; The Air is healthful, and the Soil
+fruitful; the <hi>Indian</hi> Corn yeelds commonly 2 or 3 hundred fold, Oats 20. fold, as I am
+informed; the <hi>Indian</hi> Corn is an excel<g ref="char:EOLhyphen"/>lent grain, I have eat it and likes it very well in
+Pottage and Bread; there are ſeveral reaſonable good towns in this Province, moſt of them
+hath more then eighty Families there is no poor perſons here, but all are half idle in reſpect
+of what they work with you. Flax twice heckled, ſold at 9 <hi>d. per pound.</hi> Wool is very
+cheap, only work is dear; the Liquor we moſt uſe is Sider; we have great ſtore of Fruir. In
+many places untaken up there are many plains and not a tree; I have never ſince laſt parting
+had any ſickneſs to keep me from one Dyct, for which I render thanks to GOD. The
+<hi>Indians</hi> here make it their trade to kill Veniſon, and ſell it to us; for a ſmal
+matter I will have my Family ſerved with Fleſh all Winter; one of their <hi>Saſhiams,</hi>
+(which is their King) came to the Governour when I came firſt here, deſiring <hi>he might be
+ſuffered to trade among ſi us, and not to be beat out of our houſes, when they were drunk,
+but only that we might bind them, and permit them to cut timber, and ſome ſuch things;</hi> At
+<hi>new-Berth,</hi> we have a good <hi>Stationers Shop of Books</hi> the land is no where
+diffl<g ref="char:EOLhyphen"/>cult to clear, albeit trees be 100. foot long &amp; 3. or 4. foot over; I would heartily with
+and perſwade any to come over that intends to live well, plentifully and pleaſantly: Neither is
+there any Tradeſman
+<pb n="17" facs="tcp:40731:10"/>or Servant that could come wrong to this place, and I could wish my beſt
+friends no better but in the ſame place with me; the old Inhabitants are a moſt careleſs and
+infrugall People, there profeſ<g ref="char:EOLhyphen"/>ſion are moſt part <hi>Proteſtants,</hi> few
+<hi>Quakers,</hi> ſome <hi>Anabaptiſts,</hi> it is moſt deſired there may be ſome
+Miniſters ſent us over, they would have conſiderable Benefices, and good Eſtates; and
+ſince it would be a matter of great Piety, I hope ye will be inſtrumentall to ad<g ref="char:EOLhyphen"/>viſe ſome
+over to us the place is aboundantly healthful, as any elſe; there are a great difference betwixt
+the people here, who are Strong and Vigorous, and the people more Southerly in <hi>Mariland;</hi>
+we have great ſtore of Veniſon which is ſometimes as fat as Pork one good Buck is ſold at
+5. <hi>shil.</hi> and by the <hi>Indians</hi> at 2. <hi>ſhil.</hi> Oats are ſold at 18.
+<hi>pence</hi> the Buſhell; all ſorts of Fiſh is here exceeding plentifull, the pooreſt
+Perſons eats no Meat that is Salt, except Pork, in Summer, they live much on Milk. I would no
+more value the Sea coming through if I had occaſion, then ye would riding of of 20. miles; let me
+be remembred to all friends, to <hi>Patrick Fortune</hi> who moſt carefully diſſwaded me from
+this Voyage, which I doe not repent, but would as carefully perſwade others, who ſtudy there
+own good, what I moſt earneſtly deſire of you, for the encourag<g ref="char:EOLhyphen"/>ment of this Plantation, is,
+you would be Inſtrumental to ſend us over ſome Miniſters, who <hi>I</hi> dare engadge
+ſhall afterwards ever be thankfull, and <hi>I</hi> oblidge to be your ever affectionate
+Brother,</p>
+               <closer>
+                  <signed>James Johnſton.</signed>
+               </closer>
+            </div>
+            <div type="part">
+               <opener>
+                  <dateline>
+                     <hi>Amboy,</hi> or new <hi>Perth</hi> in <hi>America,</hi>
+                     <date>9. <hi>of November,</hi> 1684.</date>
+                  </dateline> 
+                  <salute>
+                     <hi>Dear
+Brother,</hi>
+                  </salute>
+               </opener>
+               <p>HAving accidentally met with the Bearer, had not time to give you any particular accompt of this
+Countrey, only aſſure you, that it is beyond (not only) all our expecta<g ref="char:EOLhyphen"/>tions, but all that
+ever you have heard ſpoken of it, we (praiſed
+<pb n="18" facs="tcp:40731:11"/>be GOD) all of us arrived ſafely without the loſs of any one
+Paſ<g ref="char:EOLhyphen"/>ſenger; ſcarcely any of them was ever ſick, only we had much troubles coming from
+<hi>Mariland</hi> by land, our Skipper having for his own advantadge put in firſt at the
+<hi>Capes</hi> of <hi>Virginia;</hi> but we have had a brave Proſpect of the Countrey, and all
+the way as well as in this place where now we are, we found plenty of Corn and all Kinds of Fruit,
+with Fiſh, Veniſion and wild Fowls, in ſuch abundance, that a Deer may be had for 2
+<hi>ſhilling</hi> Countrey money, and Turkies for 6. <hi>pence;</hi> which will be at leaſt as
+big any 2. Turkies in <hi>Scot<g ref="char:EOLhyphen"/>land,</hi> and are really Turkies, only blacker then tame Turkies
+that you have ſeen; <hi>I</hi> ſhall give you full ſatisfaction with the next oc<g ref="char:EOLhyphen"/>caſion,
+pray you fail not to writ to me, when you meet with any, otherwayes you diſoblidge him who is
+ever yours,</p>
+               <closer>
+                  <signed>D. M<hi rend="sup">c</hi>kgregor.</signed>
+               </closer>
+               <postscript>
+                  <p>Write to his Brother <hi>Munivard,</hi> in <hi>Scotland.</hi>
+                  </p>
+               </postscript>
+            </div>
+            <div type="part">
+               <head>Patrick Falkconers <hi>Letter to</hi> Maurice Trent.</head>
+               <opener>
+                  <dateline>
+                     <hi>Elizabeth-Town</hi> in <hi>Eaſt-Jerſey,</hi> 
+                     <date>the
+<hi>28th.</hi> of <hi>October,</hi> 1684.</date>
+                  </dateline>
+                  <salute>Sir,</salute>
+               </opener>
+               <p>MY laſt was dated the 22. Current, from <hi>Philadelphia,</hi> at which time <hi>I</hi> could
+give you but a ſmall account of the Countrey; and as yet its but a ſmall account, <hi>I</hi>
+can give by reaſon that I have had but a little time here as yet; I have tra<g ref="char:EOLhyphen"/>velled on Foot more
+then a 100. miles in <hi>Eaſt</hi> and <hi>Weſt Jerſey,</hi> and <hi>Penſilvania;</hi> I
+have alſo Travelled in <hi>Maryland, I</hi> cannot but ſay it is a good Countrey, but its
+poſſeſſed with a Debauched, Idle, Laſie People, all that they Labour for is only as much
+Bread as ſerves them for one Seaſon, and als much Tobacco as may furniſh them with Cloaths,
+<hi>I</hi> believe it is the worſt improwed Countrey in the World, for the <hi>Indian wheat</hi>
+is that they truſt to, and if that fail them they may expect to ſtarve. I find
+<hi>Penſilvanie</hi> and the two
+<pb n="19" facs="tcp:40731:11"/>
+                  <hi>Jerſeyes</hi> are the places which ſet themſelves out moſt for
+Planting of Corn; As for the <hi>Jerſies</hi> I need not inſiſt in commending of them, for
+<hi>David Barclay</hi> and <hi>Arthur Forbes</hi> who had a longer ſtay here than I have had,
+will give you a more full account; for I intend to write no more than I am able to make good. I may
+ſay, <hi>that it is a pleaſant Countrey, I did never ſee more pleaſant Meadows, and
+Graſs, than I have ſeen in both the Jerſies, I have ſeen plains of good Hay conſiſting
+of about</hi> 50. <hi>Acres of ground, hardly one Tree to be ſeen upon the whole ſpot.</hi> And
+there are ſeveral places ſo, I can ſay, <hi>its a well wa<g ref="char:EOLhyphen"/>tered Countrey,</hi> and good
+waters, and if they were deſirous, they might have very good Quarrie here both for Stone of any
+ſort, and Lime-ſtone likewiſe, but ſo long as Timber is ſo plenty, they will not be at
+the pains, to ſeek after Stone; <hi>there are ſome houſes in the Countrey, built with ſtone
+but very few.</hi> Having fallen in here, the end of the year, <hi>I</hi> cannot be capable to give
+an account what may be the product of the Countrey, but I hear that all ſorts of Grain hath very
+good Increaſe, <hi>I ſee the Countrey abounds with Apples, Quin<g ref="char:EOLhyphen"/>ches, Peatches, Walnuts, and
+Chaſnuts, and Strawberries in great aboun<g ref="char:EOLhyphen"/>dance, wild-Wine-Grapes are plentifull, wild-Fowl of
+all ſorts, a great number of Deer, Turckie-Fowls-wild, in great aboundance and very bigg, I have
+ſeen theſe things in great plenty:</hi> I hope ye will excuſe me, be<g ref="char:EOLhyphen"/>canſe <hi>I</hi> am
+not capable to give an ampler account of the Countrey, for <hi>I</hi> have not been two dayes in
+one place, <hi>I</hi> will tell you this is a good Countrey, for men who reſolves to be
+Laborious; any who comes here they muſt reſolve to work hard for the firſt two or three
+years, till they get a little Ground cleared, for this muſt be looked on as a woody-Countrey, tho
+<hi>I</hi> muſt confeſs the Woods are not ſo thick as people expects; and there are ſeveral
+places in the Countrey where there is little or no Wood; People are generally curious to have there
+Land near Navigable Rivers, but when they are better acquaint, they will find that the farther back
+the better is the Land, there are aboundance of Fiſh and Oyſters here, this is not a Countrey
+for idle people, but ſuch as will be at pains, they
+<pb n="20" facs="tcp:40731:12"/>need not doubt but to get Bread here in plenty, ſo <hi>I</hi> wiſh it be
+the Lords will that we may have a happy meeting again, his will be done, <hi>I</hi> wiſh you may
+be protected by the Lord, this from</p>
+               <closer>
+                  <signed>
+                     <hi>Your affectionate Friend, and humble Servant, Patrick
+Falconer.</hi>
+                  </signed>
+               </closer>
+            </div>
+            <div type="part">
+               <head>Abſtract of a Letter write by <hi>Peter Watſon</hi> (who went over a Ser<g ref="char:EOLhyphen"/>vant with
+<hi>David Barclay,</hi> in the year 1683.) to <hi>John Watſon</hi> Meſſenger in
+<hi>Selkirk</hi>
+               </head>
+               <opener>
+                  <dateline>New-Perth,
+<date>
+                        <hi>the 20th of Auguſt, 1684.</hi>
+                     </date>
+                  </dateline> 
+                  <hi>Cuſing,</hi>
+               </opener>
+               <p>
+                  <hi>I</hi> Could never write to you before now, becauſe I was never rightly ſetled, and am
+not yet fully ſetled, but I am from among the reſt of the Servants, one <hi>James-Reid</hi> and
+I and our Families are together, ſet out to a Farm on <hi>Amboy,</hi> we are to have ſome Land
+laid out to us, and we are Stocked with two <hi>Mares,</hi> four <hi>Cowes,</hi> two <hi>Sows,</hi>
+two <hi>Oxen;</hi> my Wife and I and the Child <hi>Richard</hi> are very well in health, and hath
+been ſo e<g ref="char:EOLhyphen"/>ver ſince we came out of <hi>Scotland:</hi> Now as for this Countrey, it is a very
+good Countrey, indeed poor men ſuch as my ſelf, may live better here then in Scotland if they
+will but work, a man can have Corn and Cattle or any other Goods for his work and he can ſell
+theſe goods to ſome hands for mo<g ref="char:EOLhyphen"/>ney, it is not for a man that hath a Familie to come bound
+four years, but young men, who have no trouble, they will do better to come and ſerve four years
+here then to ſerve in <hi>Scotland,</hi> for they are not ſo hard wrought as in
+<hi>Scotland,</hi> and when the four years are out, they can gain aboundance to work to other men;
+or if they deſire to ſetle upon
+<pb n="21" facs="tcp:40731:12"/>Land of their own, they can have it reaſonably Cheap, the bardeſt work that
+is here, it clearing of the Ground, and felling of Trees, and the like; the firſt year is the
+worſt, till they be accuſto<g ref="char:EOLhyphen"/>med with the work of the Countrey. my Neighbour and I did clear
+from the middle of <hi>Februa<g ref="char:EOLhyphen"/>ry</hi> till the undſt of <hi>May.</hi> five Acres of Land, and
+have is planted <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>dian Corn, and Indian Beans, and Tobacco for our own ſmoaking; a man who
+lives here <gap reason="illegible" resp="#OXF" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> where to buy anything, here be can have Corn and Catile, and every thing
+that it <gap reason="illegible" resp="#OXF" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> mans uſe, if he be Induſtrious, only the thing that is deareſt here, is
+Cloathing, for there are but few Sheep in this countrey, but there are ſtore of all other
+Beaſts, ſuch as Horſe, and Cows, and Hoggs, there is here good Fiſhing, good hunting of
+Deer, and other kind of wild Beaſts; The Coun<g ref="char:EOLhyphen"/>trey is very healthie as I have ſeen yet, it is
+cold <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> the Winter like unto Scotland; But fra once the Summer breaks up, it is hotter then it
+is in <hi>Scotland;</hi> There are here very good <hi>Reli<g ref="char:EOLhyphen"/>gious People,</hi> they go under the
+name of <hi>Independants,</hi> but are moſt like to the <hi>Prsibyterians,</hi> onely they will
+not receive every one to their Society; we have great need of <hi>Good. and Faith<g ref="char:EOLhyphen"/>ful
+Miniſters;</hi> And I wiſh to GOD, that there would come ſome over here, they can live as
+well, and have as much as in <hi>Scotland,</hi> and more than many gets; we have none within all
+this Province of <hi>Eaſt-Jerſey,</hi> except one who is Preacher in <hi>New-wark;</hi> there
+were one or two Preachers more in the Province, but they are dead; And now the people they meet
+together every Sabbath day, and Reads and Prays, and ſings Pſalms in their Meeting-houſes,
+this Countrey is very well ſetiled with People, moſt part of the firſt Settlers came out of
+<hi>New-England,</hi> very kind and loving people, kinder than in <hi>Scotland</hi> or
+<hi>England,</hi> As for the <hi>Indian Na<g ref="char:EOLhyphen"/>tives,</hi> they are not trouble ſome any way to any
+of us, if we do them no harm, but are a very kind and loving people; the men does nothing but
+hunts, and the women they plant Corn, and works at home; they come and trades among the
+Chriſtians with Skins or Veniſon, or Corn, or Pork; and in the Summer time, they and their
+Wives come down the Rivers, in their Cannoas, which they make themſelves of a piece of a great
+tree, like a little Beat, and there they Fiſh and take oyſters. This Countrey is a very
+pleaſant Countrey with Rivers and Creiks to fiſh in; only it is full of Wood, ſuch as Oak and
+Walnut-tree, Cheſnnt, Poplar, and Cedar; The only thing we want here is good People; I wiſh
+that all the poor Friends I or my Wife hath were here: As for my Brother, if he have a mind to
+come. Brother if you have but as much in the World as would tran<g ref="char:EOLhyphen"/>ſport you hither and your
+family. I would deſire you earneſtly to come, and bring my Siſter with you; if you have as
+much as will tranſpor't you, ſell all and come, tho you bad not a penny after your paſſage
+were payed, you need not fear if you have a mind to work; <hi>I</hi> was as little brought up with
+work as an<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> wan, yet bleſſed be GOD, I can work now as my Neighbors, and lives very
+con<g ref="char:EOLhyphen"/>tentedly with my Wife better than ever we did in <hi>Scotland;</hi> ſhew my Mother Law that
+my Wife and <hi>I</hi> would be very well pleaſed, if ſhe would come over, there are as old
+Women as ſhe comes here out of old <hi>England;</hi> there was one came alongſt with us elder
+than ſhe, if ſhe will come; ſhe ſhall live with her Daughter and me, as eaſie, and as
+well as ever ſhe did live in <hi>Scotland;</hi> and I do know that was well enough my Wife and I
+are well at preſent, as you could wiſh, <hi>GOD</hi> be bleſſed; I can ſay no more, but
+my love to my Brother, and his Wife, and all Friends,</p>
+               <closer>
+                  <signed>I reſt your loving Cuſin, <hi>Peter Watſon.</hi>
+                  </signed>
+               </closer>
+            </div>
+            <div type="part">
+               <pb n="22" facs="tcp:40731:13"/>
+               <head>A Letter write by <hi>John Campbel,</hi> to <hi>John Dobie.</hi>
+               </head>
+               <opener>
+                  <dateline>
+                     <hi>New-Perth,</hi>
+                     <date>
+                        <hi>8th</hi> of <hi>November,</hi> 1684.</date>
+                  </dateline> 
+                  <salute>B.
+<hi>John,</hi>
+                  </salute>
+               </opener>
+               <p>I Wrote a line from <hi>Philadelphia</hi> to you, as we were coming hither, your Cuſin
+<hi>James Dobbie</hi> the beater is in ſuch haſte, that I cannot write what <hi>I</hi> would
+ſay; but in ſhort, we are come more to a good wholeſome Countrey, in which with little
+induſtrie a man may have a comfortable life, there is good Wheat and Oats growing here, and
+<hi>Indian</hi> Corn, which our Servants likes very well; There is Fiſh and Fowl abundance, of
+Cows and Horſe, they labour with Horſe and Oxen; There is Deer through all the Coun<g ref="char:EOLhyphen"/>trey, and
+Turkies which ſome of our <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> has killed a part of already; there is Pererages and Quails very
+rife, that <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Wife yeſterday morning ſaw about 20. of them walking before the door like
+Chikens. I ſhall ſay no more till I ſee farther, for I am with others going to the Countrey
+on Munday to ſee for the Countrey lotts, for I have taken up the Towns already, and cut down the
+trees of two Acres of ground wth ſix men in three dayes. My ſervice to all Friends, I am</p>
+               <closer>
+                  <signed>
+                     <hi>Your moſt aſsured Friend,</hi> John Campbel.</signed>
+               </closer>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="postscript">
+            <head>POSTSCRIPT.</head>
+            <p>BY all theſe Letters, and many more that could be produced, if need were, it ſuffici<g ref="char:EOLhyphen"/>ently
+appears how little ground there is for theſe clamours, that have been raiſed againſt this
+Province; And though no reaſonable man can ſuppoſe that there is a Countrey in the World that
+will pleaſe the humours of all ſorts of peo<g ref="char:EOLhyphen"/>ple; yet it is to be obſerved, that albeit
+ſeveral hundreds of people are gone to this Province, within theſe three years from
+<hi>Scotland</hi> and <hi>England,</hi> the reports of them all agree in the main, and lands in the
+commendation of the Countrey.</p>
+            <p>Now if any ſhould ſuſpect that theſe Letters are any ways altered, becauſe ſome of
+them are not intirely inſert, there being in them other buſineſs that relates not to the
+Countrey; And in others of them, a large account of their Sea-voyage, which were needleſs here to
+inſert; It is deſired, that all who would be further ſatisfied by theſe Letters, may repair
+to <hi>Andrew Hamiltons</hi> at the ſign of the Ship, in <hi>Edinburgh,</hi> where the original
+of ſome of them lyes, and ſuch of them as are not there, may be found with the perſons to
+whom they were directed.</p>
+            <p>There is a good Ship freighted by Mr. <hi>Robert Plackwood</hi> Merchant in <hi>Edinburgh,</hi>
+and <hi>David Parclay,</hi> which is to be at <hi>Leith</hi> ſometime in <hi>June</hi> next, and
+is to call at <hi>Montroſe</hi> and <hi>Aberdeen,</hi> and thence to ſail to the Town of
+<hi>Perth</hi> in <hi>Eaſt-Jerſey;</hi> So if there be any perſons that are deſirous to
+tranſport themſelves thither, let them repair to Mr. <hi>Robert Plaickwood. Andrew
+Hemilton,</hi> or <hi>David Falkoner</hi> in <hi>Edinburgh;</hi> In <hi>Aberdeen</hi> to <hi>Andrew
+Calloway</hi> Merchan<g ref="char:cmbAbbrStroke">̄</g>t; In ſhe <hi>Mearns</hi> to <hi>David Barclay</hi> of <hi>Ury,</hi> In
+<hi>Aberdeen</hi> Shire; to <hi>Robert <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>urnet</hi> of <hi>Lethent<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</hi> or <hi>Robert Gordon</hi>
+of <hi>C<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>uny,</hi> where ſuch as are willing to pay their own paſſage, by giving timely
+notice, may have aſſurance of good accommodati<g ref="char:EOLhyphen"/>on in the ſaid Ship; And ſuch as are willing
+to engadge as Tennents, or Servants, whe<g ref="char:EOLhyphen"/>th<gap reason="illegible" resp="#OXF" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#OXF" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>. Huſband-men, or others. let them repair to
+any of the foreſaids perſon<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap> who will engadge with them, upon eaſie and reaſonable
+terms.</p>
+         </div>
+         <div type="errata">
+            <p>
+               <hi>In page 2<gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> the date of J.</hi> Campbels <hi>letter, read</hi> November <hi>for</hi>
+October; <hi>And in the firſt line of the letter, read</hi> October <hi>for</hi> September,
+<hi>which error was occaſioned by the Tranſcriber.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:40731:13"/>
+         </div>
+      </back>
+   </text>
+</TEI>
